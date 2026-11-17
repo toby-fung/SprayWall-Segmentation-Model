@@ -1,0 +1,10 @@
+path: C:\Users\tobyf\OneDrive\Documents\GitHub\SprayWall-Segmentation-Model\spraywall_dataset_cleaned
+train: images/Train
+val: images/Val
+names:
+  0: Crimp
+  1: Jug
+  2: Pinch
+  3: Pocket
+  4: Sloper
+  5: Volume
