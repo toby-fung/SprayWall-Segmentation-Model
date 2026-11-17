@@ -5,7 +5,8 @@ from ultralytics.data.converter import convert_coco
 convert_coco(
     labels_dir="spraywall_dataset_cleaned/annotations/",
     save_dir="spraywall_dataset_cleaned/converted/",
-    cls91to80=False, 
+    use_segments=True,
+    cls91to80=False,
 )
 
 import json
