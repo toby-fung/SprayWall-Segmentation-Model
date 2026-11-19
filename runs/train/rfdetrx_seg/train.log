@@ -1,0 +1,101 @@
+2026-11-18 13:57:05 | WARNING  | No accelerated MSDA provider accepted this CUDA call; using the portable path. Install `libreyolo[hub-kernels]` for the compiled kernel, or set LIBREYOLO_HUB_KERNELS=0 to silence this hint.
+2026-11-18 14:03:31 | WARNING  | Non-finite values detected in matcher cost matrix; replacing with finite sentinel. Check for numerical instability.
+2026-11-18 14:27:41 | INFO     | Epoch 1 - Average loss: 11.5277
+2026-11-18 14:27:41 | INFO     | Running validation for epoch 1
+2026-11-18 14:27:42 | INFO     | Loading 117 YOLO annotations from valid/labels...
+2026-11-18 14:27:42 | INFO     | Loaded 117 YOLO annotations from valid/labels in 0.03s
+2026-11-18 14:27:42 | INFO     | Building COCO API for 117 images...
+2026-11-18 14:27:42 | INFO     |   Loaded 638 annotations across 117 images
+2026-11-18 14:29:25 | WARNING  | faster_coco_eval requested but not installed; falling back to pycocotools. Install with: pip install faster-coco-eval
+2026-11-18 14:29:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 14:29:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 14:29:26 | INFO     | Validation - mAP50: 0.2860, mAP50-95: 0.2412
+2026-11-18 14:29:27 | INFO     | New best model saved - Epoch 1: metrics/mAP50-95=0.2412
+2026-11-18 14:29:27 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 15:16:55 | WARNING  | No accelerated MSDA provider accepted this CUDA call; using the portable path. Install `libreyolo[hub-kernels]` for the compiled kernel, or set LIBREYOLO_HUB_KERNELS=0 to silence this hint.
+2026-11-18 15:18:35 | WARNING  | No accelerated MSDA provider accepted this CUDA call; using the portable path. Install `libreyolo[hub-kernels]` for the compiled kernel, or set LIBREYOLO_HUB_KERNELS=0 to silence this hint.
+2026-11-18 15:18:45 | WARNING  | Non-finite values detected in matcher cost matrix; replacing with finite sentinel. Check for numerical instability.
+2026-11-18 15:31:25 | WARNING  | No accelerated MSDA provider accepted this CUDA call; using the portable path. Install `libreyolo[hub-kernels]` for the compiled kernel, or set LIBREYOLO_HUB_KERNELS=0 to silence this hint.
+2026-11-18 15:31:35 | WARNING  | Non-finite values detected in matcher cost matrix; replacing with finite sentinel. Check for numerical instability.
+2026-11-18 16:12:04 | INFO     | Epoch 2 - Average loss: 9.8688
+2026-11-18 16:12:04 | INFO     | Running validation for epoch 2
+2026-11-18 16:12:04 | INFO     | Loading 117 YOLO annotations from valid/labels...
+2026-11-18 16:12:04 | INFO     | Loaded 117 YOLO annotations from valid/labels in 0.03s
+2026-11-18 16:12:04 | INFO     | Building COCO API for 117 images...
+2026-11-18 16:12:04 | INFO     |   Loaded 638 annotations across 117 images
+2026-11-18 16:13:34 | WARNING  | faster_coco_eval requested but not installed; falling back to pycocotools. Install with: pip install faster-coco-eval
+2026-11-18 16:13:34 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 16:13:34 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 16:13:35 | INFO     | Validation - mAP50: 0.3459, mAP50-95: 0.2925
+2026-11-18 16:13:36 | INFO     | New best model saved - Epoch 2: metrics/mAP50-95=0.2925
+2026-11-18 16:13:36 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 16:45:55 | INFO     | Epoch 3 - Average loss: 9.2043
+2026-11-18 16:45:55 | INFO     | Running validation for epoch 3
+2026-11-18 16:47:24 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 16:47:24 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 16:47:25 | INFO     | Validation - mAP50: 0.3909, mAP50-95: 0.3299
+2026-11-18 16:47:26 | INFO     | New best model saved - Epoch 3: metrics/mAP50-95=0.3299
+2026-11-18 16:47:26 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 17:17:58 | INFO     | Epoch 4 - Average loss: 8.5989
+2026-11-18 17:17:58 | INFO     | Running validation for epoch 4
+2026-11-18 17:19:27 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 17:19:27 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 17:19:28 | INFO     | Validation - mAP50: 0.4157, mAP50-95: 0.3368
+2026-11-18 17:19:29 | INFO     | New best model saved - Epoch 4: metrics/mAP50-95=0.3368
+2026-11-18 17:19:29 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 17:50:56 | INFO     | Epoch 5 - Average loss: 8.2742
+2026-11-18 17:50:56 | INFO     | Running validation for epoch 5
+2026-11-18 17:52:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 17:52:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 17:52:26 | INFO     | Validation - mAP50: 0.4439, mAP50-95: 0.3497
+2026-11-18 17:52:27 | INFO     | New best model saved - Epoch 5: metrics/mAP50-95=0.3497
+2026-11-18 17:52:27 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 18:24:44 | INFO     | Epoch 6 - Average loss: 7.8525
+2026-11-18 18:24:44 | INFO     | Running validation for epoch 6
+2026-11-18 18:26:13 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 18:26:13 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 18:26:14 | INFO     | Validation - mAP50: 0.4572, mAP50-95: 0.3652
+2026-11-18 18:26:15 | INFO     | New best model saved - Epoch 6: metrics/mAP50-95=0.3652
+2026-11-18 18:26:15 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 18:58:18 | INFO     | Epoch 7 - Average loss: 7.5837
+2026-11-18 18:58:18 | INFO     | Running validation for epoch 7
+2026-11-18 18:59:46 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 18:59:46 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 18:59:47 | INFO     | Validation - mAP50: 0.4703, mAP50-95: 0.3739
+2026-11-18 18:59:48 | INFO     | New best model saved - Epoch 7: metrics/mAP50-95=0.3739
+2026-11-18 18:59:48 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 19:30:36 | INFO     | Epoch 8 - Average loss: 7.0538
+2026-11-18 19:30:36 | INFO     | Running validation for epoch 8
+2026-11-18 19:32:04 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 19:32:04 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 19:32:05 | INFO     | Validation - mAP50: 0.4865, mAP50-95: 0.3785
+2026-11-18 19:32:06 | INFO     | New best model saved - Epoch 8: metrics/mAP50-95=0.3785
+2026-11-18 19:32:06 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 20:03:17 | INFO     | Epoch 9 - Average loss: 7.0742
+2026-11-18 20:03:17 | INFO     | Running validation for epoch 9
+2026-11-18 20:04:46 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 20:04:47 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 20:04:47 | INFO     | Validation - mAP50: 0.5037, mAP50-95: 0.3849
+2026-11-18 20:04:48 | INFO     | New best model saved - Epoch 9: metrics/mAP50-95=0.3849
+2026-11-18 20:04:48 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 20:35:45 | INFO     | Epoch 10 - Average loss: 6.9557
+2026-11-18 20:35:45 | INFO     | Running validation for epoch 10
+2026-11-18 20:37:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 20:37:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 20:37:15 | INFO     | Validation - mAP50: 0.5058, mAP50-95: 0.3900
+2026-11-18 20:37:16 | INFO     | New best model saved - Epoch 10: metrics/mAP50-95=0.3900
+2026-11-18 20:37:16 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 21:10:14 | INFO     | Epoch 11 - Average loss: 6.8050
+2026-11-18 21:10:14 | INFO     | Running validation for epoch 11
+2026-11-18 21:11:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 21:11:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 21:11:44 | INFO     | Validation - mAP50: 0.5140, mAP50-95: 0.3941
+2026-11-18 21:11:45 | INFO     | New best model saved - Epoch 11: metrics/mAP50-95=0.3941
+2026-11-18 21:11:45 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 21:44:04 | INFO     | Epoch 12 - Average loss: 6.5497
+2026-11-18 21:44:04 | INFO     | Running validation for epoch 12
+2026-11-18 21:45:34 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 21:45:34 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 21:45:35 | INFO     | Validation - mAP50: 0.5069, mAP50-95: 0.3900
+2026-11-18 21:45:35 | INFO     | Checkpoint saved: runs/train/rfdetrx_seg/weights/last.pt
+2026-11-18 21:45:35 | INFO     | Training complete in 6.07 hours

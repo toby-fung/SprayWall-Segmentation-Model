@@ -1,0 +1,940 @@
+2026-11-18 02:00:28 | INFO     | Epoch 1 - Average loss: 32.1234
+2026-11-18 02:00:28 | INFO     | Running validation for epoch 1
+2026-11-18 02:00:28 | INFO     | Loading 2 YOLO annotations from labels/Val...
+2026-11-18 02:00:28 | INFO     | Loaded 2 YOLO annotations from labels/Val in 0.00s
+2026-11-18 02:00:28 | INFO     | Building COCO API for 2 images...
+2026-11-18 02:00:28 | INFO     |   Loaded 233 annotations across 2 images
+2026-11-18 02:00:35 | WARNING  | faster_coco_eval requested but not installed; falling back to pycocotools. Install with: pip install faster-coco-eval
+2026-11-18 02:00:35 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:00:35 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:00:35 | INFO     | Validation - mAP50: 0.0017, mAP50-95: 0.0011
+2026-11-18 02:00:36 | INFO     | New best model saved - Epoch 1: metrics/mAP50-95=0.0011
+2026-11-18 02:00:36 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:00:44 | INFO     | Epoch 2 - Average loss: 27.5134
+2026-11-18 02:00:44 | INFO     | Running validation for epoch 2
+2026-11-18 02:00:51 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:00:51 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:00:51 | INFO     | Validation - mAP50: 0.0035, mAP50-95: 0.0019
+2026-11-18 02:00:52 | INFO     | New best model saved - Epoch 2: metrics/mAP50-95=0.0019
+2026-11-18 02:00:52 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:01:00 | INFO     | Epoch 3 - Average loss: 23.6308
+2026-11-18 02:01:00 | INFO     | Running validation for epoch 3
+2026-11-18 02:01:08 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:01:08 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:01:08 | INFO     | Validation - mAP50: 0.0130, mAP50-95: 0.0054
+2026-11-18 02:01:08 | INFO     | New best model saved - Epoch 3: metrics/mAP50-95=0.0054
+2026-11-18 02:01:08 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:01:18 | INFO     | Epoch 4 - Average loss: 17.7550
+2026-11-18 02:01:18 | INFO     | Running validation for epoch 4
+2026-11-18 02:01:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:01:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:01:25 | INFO     | Validation - mAP50: 0.0024, mAP50-95: 0.0011
+2026-11-18 02:01:26 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:01:35 | INFO     | Epoch 5 - Average loss: 13.6617
+2026-11-18 02:01:35 | INFO     | Running validation for epoch 5
+2026-11-18 02:01:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:01:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:01:43 | INFO     | Validation - mAP50: 0.0023, mAP50-95: 0.0007
+2026-11-18 02:01:44 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:01:58 | INFO     | Epoch 6 - Average loss: 17.8760
+2026-11-18 02:01:58 | INFO     | Running validation for epoch 6
+2026-11-18 02:02:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:02:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:02:06 | INFO     | Validation - mAP50: 0.0312, mAP50-95: 0.0127
+2026-11-18 02:02:07 | INFO     | New best model saved - Epoch 6: metrics/mAP50-95=0.0127
+2026-11-18 02:02:07 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:02:20 | INFO     | Epoch 7 - Average loss: 13.3097
+2026-11-18 02:02:20 | INFO     | Running validation for epoch 7
+2026-11-18 02:02:28 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:02:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:02:29 | INFO     | Validation - mAP50: 0.0696, mAP50-95: 0.0229
+2026-11-18 02:02:29 | INFO     | New best model saved - Epoch 7: metrics/mAP50-95=0.0229
+2026-11-18 02:02:29 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:02:40 | INFO     | Epoch 8 - Average loss: 11.9935
+2026-11-18 02:02:40 | INFO     | Running validation for epoch 8
+2026-11-18 02:02:48 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:02:48 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:02:48 | INFO     | Validation - mAP50: 0.0666, mAP50-95: 0.0234
+2026-11-18 02:02:49 | INFO     | New best model saved - Epoch 8: metrics/mAP50-95=0.0234
+2026-11-18 02:02:49 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:02:58 | INFO     | Epoch 9 - Average loss: 12.0505
+2026-11-18 02:02:58 | INFO     | Running validation for epoch 9
+2026-11-18 02:03:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:03:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:03:06 | INFO     | Validation - mAP50: 0.0659, mAP50-95: 0.0223
+2026-11-18 02:03:07 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:03:19 | INFO     | Epoch 10 - Average loss: 11.2291
+2026-11-18 02:03:19 | INFO     | Running validation for epoch 10
+2026-11-18 02:03:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:03:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:03:26 | INFO     | Validation - mAP50: 0.0868, mAP50-95: 0.0312
+2026-11-18 02:03:26 | INFO     | New best model saved - Epoch 10: metrics/mAP50-95=0.0312
+2026-11-18 02:03:27 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:03:41 | INFO     | Epoch 11 - Average loss: 11.7401
+2026-11-18 02:03:41 | INFO     | Running validation for epoch 11
+2026-11-18 02:03:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:03:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:03:49 | INFO     | Validation - mAP50: 0.1035, mAP50-95: 0.0311
+2026-11-18 02:03:49 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:04:02 | INFO     | Epoch 12 - Average loss: 11.4107
+2026-11-18 02:04:02 | INFO     | Running validation for epoch 12
+2026-11-18 02:04:09 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:04:09 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:04:09 | INFO     | Validation - mAP50: 0.1222, mAP50-95: 0.0370
+2026-11-18 02:04:09 | INFO     | New best model saved - Epoch 12: metrics/mAP50-95=0.0370
+2026-11-18 02:04:09 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:04:22 | INFO     | Epoch 13 - Average loss: 11.7686
+2026-11-18 02:04:22 | INFO     | Running validation for epoch 13
+2026-11-18 02:04:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:04:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:04:29 | INFO     | Validation - mAP50: 0.1256, mAP50-95: 0.0383
+2026-11-18 02:04:29 | INFO     | New best model saved - Epoch 13: metrics/mAP50-95=0.0383
+2026-11-18 02:04:29 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:04:40 | INFO     | Epoch 14 - Average loss: 10.9428
+2026-11-18 02:04:40 | INFO     | Running validation for epoch 14
+2026-11-18 02:04:47 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:04:47 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:04:47 | INFO     | Validation - mAP50: 0.1295, mAP50-95: 0.0425
+2026-11-18 02:04:48 | INFO     | New best model saved - Epoch 14: metrics/mAP50-95=0.0425
+2026-11-18 02:04:48 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:04:57 | INFO     | Epoch 15 - Average loss: 10.4687
+2026-11-18 02:04:57 | INFO     | Running validation for epoch 15
+2026-11-18 02:05:03 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:05:03 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:05:03 | INFO     | Validation - mAP50: 0.1287, mAP50-95: 0.0442
+2026-11-18 02:05:04 | INFO     | New best model saved - Epoch 15: metrics/mAP50-95=0.0442
+2026-11-18 02:05:04 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:05:14 | INFO     | Epoch 16 - Average loss: 11.1672
+2026-11-18 02:05:14 | INFO     | Running validation for epoch 16
+2026-11-18 02:05:21 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:05:21 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:05:21 | INFO     | Validation - mAP50: 0.1321, mAP50-95: 0.0477
+2026-11-18 02:05:22 | INFO     | New best model saved - Epoch 16: metrics/mAP50-95=0.0477
+2026-11-18 02:05:22 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:05:32 | INFO     | Epoch 17 - Average loss: 11.5861
+2026-11-18 02:05:32 | INFO     | Running validation for epoch 17
+2026-11-18 02:05:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:05:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:05:39 | INFO     | Validation - mAP50: 0.1302, mAP50-95: 0.0471
+2026-11-18 02:05:39 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:05:53 | INFO     | Epoch 18 - Average loss: 10.7656
+2026-11-18 02:05:53 | INFO     | Running validation for epoch 18
+2026-11-18 02:05:59 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:05:59 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:06:00 | INFO     | Validation - mAP50: 0.1407, mAP50-95: 0.0548
+2026-11-18 02:06:00 | INFO     | New best model saved - Epoch 18: metrics/mAP50-95=0.0548
+2026-11-18 02:06:00 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:06:10 | INFO     | Epoch 19 - Average loss: 11.1444
+2026-11-18 02:06:10 | INFO     | Running validation for epoch 19
+2026-11-18 02:06:16 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:06:16 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:06:17 | INFO     | Validation - mAP50: 0.1503, mAP50-95: 0.0621
+2026-11-18 02:06:18 | INFO     | New best model saved - Epoch 19: metrics/mAP50-95=0.0621
+2026-11-18 02:06:18 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:06:34 | INFO     | Epoch 20 - Average loss: 10.7928
+2026-11-18 02:06:34 | INFO     | Running validation for epoch 20
+2026-11-18 02:06:41 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:06:41 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:06:41 | INFO     | Validation - mAP50: 0.1536, mAP50-95: 0.0629
+2026-11-18 02:06:42 | INFO     | New best model saved - Epoch 20: metrics/mAP50-95=0.0629
+2026-11-18 02:06:42 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:06:57 | INFO     | Epoch 21 - Average loss: 10.7407
+2026-11-18 02:06:57 | INFO     | Running validation for epoch 21
+2026-11-18 02:07:05 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:07:05 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:07:05 | INFO     | Validation - mAP50: 0.1635, mAP50-95: 0.0689
+2026-11-18 02:07:05 | INFO     | New best model saved - Epoch 21: metrics/mAP50-95=0.0689
+2026-11-18 02:07:05 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:07:15 | INFO     | Epoch 22 - Average loss: 12.2457
+2026-11-18 02:07:15 | INFO     | Running validation for epoch 22
+2026-11-18 02:07:21 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:07:21 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:07:22 | INFO     | Validation - mAP50: 0.1621, mAP50-95: 0.0698
+2026-11-18 02:07:22 | INFO     | New best model saved - Epoch 22: metrics/mAP50-95=0.0698
+2026-11-18 02:07:22 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:07:32 | INFO     | Epoch 23 - Average loss: 10.4629
+2026-11-18 02:07:32 | INFO     | Running validation for epoch 23
+2026-11-18 02:07:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:07:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:07:39 | INFO     | Validation - mAP50: 0.1783, mAP50-95: 0.0791
+2026-11-18 02:07:40 | INFO     | New best model saved - Epoch 23: metrics/mAP50-95=0.0791
+2026-11-18 02:07:40 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:07:50 | INFO     | Epoch 24 - Average loss: 10.1650
+2026-11-18 02:07:50 | INFO     | Running validation for epoch 24
+2026-11-18 02:07:57 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:07:57 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:07:57 | INFO     | Validation - mAP50: 0.1775, mAP50-95: 0.0799
+2026-11-18 02:07:58 | INFO     | New best model saved - Epoch 24: metrics/mAP50-95=0.0799
+2026-11-18 02:07:58 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:08:11 | INFO     | Epoch 25 - Average loss: 9.9543
+2026-11-18 02:08:11 | INFO     | Running validation for epoch 25
+2026-11-18 02:08:18 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:08:18 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:08:18 | INFO     | Validation - mAP50: 0.1655, mAP50-95: 0.0742
+2026-11-18 02:08:19 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:08:31 | INFO     | Epoch 26 - Average loss: 9.6111
+2026-11-18 02:08:31 | INFO     | Running validation for epoch 26
+2026-11-18 02:08:38 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:08:38 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:08:38 | INFO     | Validation - mAP50: 0.1643, mAP50-95: 0.0704
+2026-11-18 02:08:39 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:08:49 | INFO     | Epoch 27 - Average loss: 9.6248
+2026-11-18 02:08:49 | INFO     | Running validation for epoch 27
+2026-11-18 02:08:56 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:08:56 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:08:56 | INFO     | Validation - mAP50: 0.1577, mAP50-95: 0.0638
+2026-11-18 02:08:57 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:09:12 | INFO     | Epoch 28 - Average loss: 11.9625
+2026-11-18 02:09:12 | INFO     | Running validation for epoch 28
+2026-11-18 02:09:19 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:09:19 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:09:19 | INFO     | Validation - mAP50: 0.1780, mAP50-95: 0.0691
+2026-11-18 02:09:20 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:09:29 | INFO     | Epoch 29 - Average loss: 9.6072
+2026-11-18 02:09:29 | INFO     | Running validation for epoch 29
+2026-11-18 02:09:35 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:09:35 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:09:36 | INFO     | Validation - mAP50: 0.1752, mAP50-95: 0.0664
+2026-11-18 02:09:36 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:09:49 | INFO     | Epoch 30 - Average loss: 10.1173
+2026-11-18 02:09:49 | INFO     | Running validation for epoch 30
+2026-11-18 02:09:56 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:09:56 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:09:56 | INFO     | Validation - mAP50: 0.1846, mAP50-95: 0.0678
+2026-11-18 02:09:57 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:10:11 | INFO     | Epoch 31 - Average loss: 9.1819
+2026-11-18 02:10:11 | INFO     | Running validation for epoch 31
+2026-11-18 02:10:18 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:10:18 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:10:18 | INFO     | Validation - mAP50: 0.1766, mAP50-95: 0.0663
+2026-11-18 02:10:19 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:10:27 | INFO     | Epoch 32 - Average loss: 11.2577
+2026-11-18 02:10:27 | INFO     | Running validation for epoch 32
+2026-11-18 02:10:34 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:10:34 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:10:34 | INFO     | Validation - mAP50: 0.1903, mAP50-95: 0.0676
+2026-11-18 02:10:34 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:10:43 | INFO     | Epoch 33 - Average loss: 12.4386
+2026-11-18 02:10:43 | INFO     | Running validation for epoch 33
+2026-11-18 02:10:50 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:10:50 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:10:50 | INFO     | Validation - mAP50: 0.1940, mAP50-95: 0.0678
+2026-11-18 02:10:50 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:11:05 | INFO     | Epoch 34 - Average loss: 9.2124
+2026-11-18 02:11:05 | INFO     | Running validation for epoch 34
+2026-11-18 02:11:12 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:11:12 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:11:12 | INFO     | Validation - mAP50: 0.1920, mAP50-95: 0.0695
+2026-11-18 02:11:12 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:11:27 | INFO     | Epoch 35 - Average loss: 10.1355
+2026-11-18 02:11:27 | INFO     | Running validation for epoch 35
+2026-11-18 02:11:33 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:11:34 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:11:34 | INFO     | Validation - mAP50: 0.1876, mAP50-95: 0.0707
+2026-11-18 02:11:34 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:11:48 | INFO     | Epoch 36 - Average loss: 9.8150
+2026-11-18 02:11:48 | INFO     | Running validation for epoch 36
+2026-11-18 02:11:55 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:11:55 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:11:55 | INFO     | Validation - mAP50: 0.2097, mAP50-95: 0.0741
+2026-11-18 02:11:55 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:12:07 | INFO     | Epoch 37 - Average loss: 10.2076
+2026-11-18 02:12:07 | INFO     | Running validation for epoch 37
+2026-11-18 02:12:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:12:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:12:14 | INFO     | Validation - mAP50: 0.1968, mAP50-95: 0.0719
+2026-11-18 02:12:14 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:12:30 | INFO     | Epoch 38 - Average loss: 10.7222
+2026-11-18 02:12:30 | INFO     | Running validation for epoch 38
+2026-11-18 02:12:37 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:12:37 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:12:37 | INFO     | Validation - mAP50: 0.1940, mAP50-95: 0.0707
+2026-11-18 02:12:37 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:12:53 | INFO     | Epoch 39 - Average loss: 9.8915
+2026-11-18 02:12:53 | INFO     | Running validation for epoch 39
+2026-11-18 02:12:59 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:13:00 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:13:00 | INFO     | Validation - mAP50: 0.1910, mAP50-95: 0.0716
+2026-11-18 02:13:00 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:13:10 | INFO     | Epoch 40 - Average loss: 10.9674
+2026-11-18 02:13:10 | INFO     | Running validation for epoch 40
+2026-11-18 02:13:17 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:13:17 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:13:17 | INFO     | Validation - mAP50: 0.2045, mAP50-95: 0.0805
+2026-11-18 02:13:18 | INFO     | New best model saved - Epoch 40: metrics/mAP50-95=0.0805
+2026-11-18 02:13:18 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:13:31 | INFO     | Epoch 41 - Average loss: 9.0868
+2026-11-18 02:13:31 | INFO     | Running validation for epoch 41
+2026-11-18 02:13:38 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:13:38 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:13:38 | INFO     | Validation - mAP50: 0.1865, mAP50-95: 0.0811
+2026-11-18 02:13:39 | INFO     | New best model saved - Epoch 41: metrics/mAP50-95=0.0811
+2026-11-18 02:13:39 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:13:51 | INFO     | Epoch 42 - Average loss: 9.8542
+2026-11-18 02:13:51 | INFO     | Running validation for epoch 42
+2026-11-18 02:13:58 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:13:58 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:13:58 | INFO     | Validation - mAP50: 0.1839, mAP50-95: 0.0832
+2026-11-18 02:13:58 | INFO     | New best model saved - Epoch 42: metrics/mAP50-95=0.0832
+2026-11-18 02:13:58 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:14:14 | INFO     | Epoch 43 - Average loss: 9.6554
+2026-11-18 02:14:14 | INFO     | Running validation for epoch 43
+2026-11-18 02:14:22 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:14:22 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:14:22 | INFO     | Validation - mAP50: 0.1967, mAP50-95: 0.0895
+2026-11-18 02:14:23 | INFO     | New best model saved - Epoch 43: metrics/mAP50-95=0.0895
+2026-11-18 02:14:23 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:14:31 | INFO     | Epoch 44 - Average loss: 10.5204
+2026-11-18 02:14:31 | INFO     | Running validation for epoch 44
+2026-11-18 02:14:38 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:14:38 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:14:38 | INFO     | Validation - mAP50: 0.2164, mAP50-95: 0.0988
+2026-11-18 02:14:38 | INFO     | New best model saved - Epoch 44: metrics/mAP50-95=0.0988
+2026-11-18 02:14:38 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:14:51 | INFO     | Epoch 45 - Average loss: 10.2455
+2026-11-18 02:14:51 | INFO     | Running validation for epoch 45
+2026-11-18 02:14:57 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:14:57 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:14:57 | INFO     | Validation - mAP50: 0.2188, mAP50-95: 0.1016
+2026-11-18 02:14:58 | INFO     | New best model saved - Epoch 45: metrics/mAP50-95=0.1016
+2026-11-18 02:14:58 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:15:09 | INFO     | Epoch 46 - Average loss: 8.7723
+2026-11-18 02:15:09 | INFO     | Running validation for epoch 46
+2026-11-18 02:15:16 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:15:16 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:15:16 | INFO     | Validation - mAP50: 0.2203, mAP50-95: 0.1012
+2026-11-18 02:15:16 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:15:24 | INFO     | Epoch 47 - Average loss: 9.9825
+2026-11-18 02:15:24 | INFO     | Running validation for epoch 47
+2026-11-18 02:15:31 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:15:31 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:15:32 | INFO     | Validation - mAP50: 0.2135, mAP50-95: 0.0969
+2026-11-18 02:15:32 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:15:43 | INFO     | Epoch 48 - Average loss: 10.7538
+2026-11-18 02:15:43 | INFO     | Running validation for epoch 48
+2026-11-18 02:15:50 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:15:50 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:15:50 | INFO     | Validation - mAP50: 0.2135, mAP50-95: 0.0937
+2026-11-18 02:15:53 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:16:08 | INFO     | Epoch 49 - Average loss: 10.4723
+2026-11-18 02:16:08 | INFO     | Running validation for epoch 49
+2026-11-18 02:16:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:16:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:16:14 | INFO     | Validation - mAP50: 0.2215, mAP50-95: 0.0927
+2026-11-18 02:16:15 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:16:23 | INFO     | Epoch 50 - Average loss: 10.8515
+2026-11-18 02:16:23 | INFO     | Running validation for epoch 50
+2026-11-18 02:16:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:16:30 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:16:30 | INFO     | Validation - mAP50: 0.2308, mAP50-95: 0.0946
+2026-11-18 02:16:30 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:16:43 | INFO     | Epoch 51 - Average loss: 8.5293
+2026-11-18 02:16:43 | INFO     | Running validation for epoch 51
+2026-11-18 02:16:50 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:16:50 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:16:50 | INFO     | Validation - mAP50: 0.2213, mAP50-95: 0.0864
+2026-11-18 02:16:50 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:17:00 | INFO     | Epoch 52 - Average loss: 9.9817
+2026-11-18 02:17:00 | INFO     | Running validation for epoch 52
+2026-11-18 02:17:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:17:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:17:07 | INFO     | Validation - mAP50: 0.2237, mAP50-95: 0.0878
+2026-11-18 02:17:07 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:17:18 | INFO     | Epoch 53 - Average loss: 9.6654
+2026-11-18 02:17:18 | INFO     | Running validation for epoch 53
+2026-11-18 02:17:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:17:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:17:25 | INFO     | Validation - mAP50: 0.2223, mAP50-95: 0.0847
+2026-11-18 02:17:28 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:17:43 | INFO     | Epoch 54 - Average loss: 9.0923
+2026-11-18 02:17:43 | INFO     | Running validation for epoch 54
+2026-11-18 02:17:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:17:50 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:17:50 | INFO     | Validation - mAP50: 0.2289, mAP50-95: 0.0877
+2026-11-18 02:17:50 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:17:59 | INFO     | Epoch 55 - Average loss: 10.3853
+2026-11-18 02:17:59 | INFO     | Running validation for epoch 55
+2026-11-18 02:18:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:18:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:18:06 | INFO     | Validation - mAP50: 0.2252, mAP50-95: 0.0873
+2026-11-18 02:18:06 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:18:15 | INFO     | Epoch 56 - Average loss: 9.9549
+2026-11-18 02:18:15 | INFO     | Running validation for epoch 56
+2026-11-18 02:18:21 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:18:21 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:18:21 | INFO     | Validation - mAP50: 0.2200, mAP50-95: 0.0867
+2026-11-18 02:18:22 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:18:36 | INFO     | Epoch 57 - Average loss: 9.2906
+2026-11-18 02:18:36 | INFO     | Running validation for epoch 57
+2026-11-18 02:18:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:18:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:18:43 | INFO     | Validation - mAP50: 0.2316, mAP50-95: 0.0914
+2026-11-18 02:18:43 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:18:51 | INFO     | Epoch 58 - Average loss: 11.1971
+2026-11-18 02:18:51 | INFO     | Running validation for epoch 58
+2026-11-18 02:18:58 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:18:58 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:18:58 | INFO     | Validation - mAP50: 0.2304, mAP50-95: 0.0933
+2026-11-18 02:18:58 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:19:13 | INFO     | Epoch 59 - Average loss: 9.2929
+2026-11-18 02:19:13 | INFO     | Running validation for epoch 59
+2026-11-18 02:19:19 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:19:20 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:19:20 | INFO     | Validation - mAP50: 0.2437, mAP50-95: 0.1008
+2026-11-18 02:19:20 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:19:30 | INFO     | Epoch 60 - Average loss: 8.9249
+2026-11-18 02:19:30 | INFO     | Running validation for epoch 60
+2026-11-18 02:19:37 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:19:37 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:19:37 | INFO     | Validation - mAP50: 0.2432, mAP50-95: 0.1002
+2026-11-18 02:19:37 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:19:48 | INFO     | Epoch 61 - Average loss: 9.1119
+2026-11-18 02:19:48 | INFO     | Running validation for epoch 61
+2026-11-18 02:19:55 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:19:55 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:19:55 | INFO     | Validation - mAP50: 0.2420, mAP50-95: 0.1017
+2026-11-18 02:19:57 | INFO     | New best model saved - Epoch 61: metrics/mAP50-95=0.1017
+2026-11-18 02:19:57 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:20:10 | INFO     | Epoch 62 - Average loss: 7.9014
+2026-11-18 02:20:10 | INFO     | Running validation for epoch 62
+2026-11-18 02:20:17 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:20:17 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:20:17 | INFO     | Validation - mAP50: 0.2520, mAP50-95: 0.1061
+2026-11-18 02:20:17 | INFO     | New best model saved - Epoch 62: metrics/mAP50-95=0.1061
+2026-11-18 02:20:17 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:20:32 | INFO     | Epoch 63 - Average loss: 8.9103
+2026-11-18 02:20:32 | INFO     | Running validation for epoch 63
+2026-11-18 02:20:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:20:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:20:39 | INFO     | Validation - mAP50: 0.2458, mAP50-95: 0.1017
+2026-11-18 02:20:40 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:20:53 | INFO     | Epoch 64 - Average loss: 8.0382
+2026-11-18 02:20:53 | INFO     | Running validation for epoch 64
+2026-11-18 02:20:59 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:20:59 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:20:59 | INFO     | Validation - mAP50: 0.2399, mAP50-95: 0.0969
+2026-11-18 02:21:00 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:21:13 | INFO     | Epoch 65 - Average loss: 9.5365
+2026-11-18 02:21:13 | INFO     | Running validation for epoch 65
+2026-11-18 02:21:19 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:21:19 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:21:19 | INFO     | Validation - mAP50: 0.2391, mAP50-95: 0.0949
+2026-11-18 02:21:20 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:21:32 | INFO     | Epoch 66 - Average loss: 7.4849
+2026-11-18 02:21:32 | INFO     | Running validation for epoch 66
+2026-11-18 02:21:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:21:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:21:39 | INFO     | Validation - mAP50: 0.2534, mAP50-95: 0.0971
+2026-11-18 02:21:39 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:21:48 | INFO     | Epoch 67 - Average loss: 9.6154
+2026-11-18 02:21:48 | INFO     | Running validation for epoch 67
+2026-11-18 02:21:55 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:21:55 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:21:55 | INFO     | Validation - mAP50: 0.2660, mAP50-95: 0.0999
+2026-11-18 02:21:55 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:22:03 | INFO     | Epoch 68 - Average loss: 9.8376
+2026-11-18 02:22:03 | INFO     | Running validation for epoch 68
+2026-11-18 02:22:10 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:22:10 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:22:10 | INFO     | Validation - mAP50: 0.2704, mAP50-95: 0.1033
+2026-11-18 02:22:11 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:22:24 | INFO     | Epoch 69 - Average loss: 8.8439
+2026-11-18 02:22:24 | INFO     | Running validation for epoch 69
+2026-11-18 02:22:30 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:22:30 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:22:30 | INFO     | Validation - mAP50: 0.2619, mAP50-95: 0.1003
+2026-11-18 02:22:31 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:22:47 | INFO     | Epoch 70 - Average loss: 7.7983
+2026-11-18 02:22:47 | INFO     | Running validation for epoch 70
+2026-11-18 02:22:54 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:22:54 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:22:54 | INFO     | Validation - mAP50: 0.2626, mAP50-95: 0.1063
+2026-11-18 02:22:54 | INFO     | New best model saved - Epoch 70: metrics/mAP50-95=0.1063
+2026-11-18 02:22:55 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:23:03 | INFO     | Epoch 71 - Average loss: 9.6151
+2026-11-18 02:23:03 | INFO     | Running validation for epoch 71
+2026-11-18 02:23:10 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:23:10 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:23:10 | INFO     | Validation - mAP50: 0.2487, mAP50-95: 0.1059
+2026-11-18 02:23:10 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:23:23 | INFO     | Epoch 72 - Average loss: 9.1578
+2026-11-18 02:23:23 | INFO     | Running validation for epoch 72
+2026-11-18 02:23:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:23:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:23:29 | INFO     | Validation - mAP50: 0.2394, mAP50-95: 0.1067
+2026-11-18 02:23:30 | INFO     | New best model saved - Epoch 72: metrics/mAP50-95=0.1067
+2026-11-18 02:23:30 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:23:39 | INFO     | Epoch 73 - Average loss: 8.4374
+2026-11-18 02:23:39 | INFO     | Running validation for epoch 73
+2026-11-18 02:23:46 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:23:46 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:23:46 | INFO     | Validation - mAP50: 0.2467, mAP50-95: 0.1121
+2026-11-18 02:23:46 | INFO     | New best model saved - Epoch 73: metrics/mAP50-95=0.1121
+2026-11-18 02:23:46 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:23:57 | INFO     | Epoch 74 - Average loss: 9.4075
+2026-11-18 02:23:57 | INFO     | Running validation for epoch 74
+2026-11-18 02:24:03 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:24:04 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:24:04 | INFO     | Validation - mAP50: 0.2491, mAP50-95: 0.1162
+2026-11-18 02:24:06 | INFO     | New best model saved - Epoch 74: metrics/mAP50-95=0.1162
+2026-11-18 02:24:06 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:24:21 | INFO     | Epoch 75 - Average loss: 8.5650
+2026-11-18 02:24:21 | INFO     | Running validation for epoch 75
+2026-11-18 02:24:28 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:24:28 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:24:28 | INFO     | Validation - mAP50: 0.2639, mAP50-95: 0.1250
+2026-11-18 02:24:29 | INFO     | New best model saved - Epoch 75: metrics/mAP50-95=0.1250
+2026-11-18 02:24:29 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:24:41 | INFO     | Epoch 76 - Average loss: 9.3592
+2026-11-18 02:24:41 | INFO     | Running validation for epoch 76
+2026-11-18 02:24:48 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:24:48 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:24:48 | INFO     | Validation - mAP50: 0.2648, mAP50-95: 0.1269
+2026-11-18 02:24:49 | INFO     | New best model saved - Epoch 76: metrics/mAP50-95=0.1269
+2026-11-18 02:24:49 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:25:00 | INFO     | Epoch 77 - Average loss: 9.5271
+2026-11-18 02:25:00 | INFO     | Running validation for epoch 77
+2026-11-18 02:25:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:25:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:25:06 | INFO     | Validation - mAP50: 0.2746, mAP50-95: 0.1275
+2026-11-18 02:25:07 | INFO     | New best model saved - Epoch 77: metrics/mAP50-95=0.1275
+2026-11-18 02:25:07 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:25:18 | INFO     | Epoch 78 - Average loss: 9.5300
+2026-11-18 02:25:18 | INFO     | Running validation for epoch 78
+2026-11-18 02:25:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:25:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:25:25 | INFO     | Validation - mAP50: 0.2763, mAP50-95: 0.1205
+2026-11-18 02:25:25 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:25:35 | INFO     | Epoch 79 - Average loss: 8.7489
+2026-11-18 02:25:35 | INFO     | Running validation for epoch 79
+2026-11-18 02:25:42 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:25:42 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:25:42 | INFO     | Validation - mAP50: 0.2742, mAP50-95: 0.1178
+2026-11-18 02:25:42 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:25:51 | INFO     | Epoch 80 - Average loss: 11.5309
+2026-11-18 02:25:51 | INFO     | Running validation for epoch 80
+2026-11-18 02:25:58 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:25:58 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:25:58 | INFO     | Validation - mAP50: 0.2809, mAP50-95: 0.1196
+2026-11-18 02:25:59 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:26:09 | INFO     | Epoch 81 - Average loss: 9.7569
+2026-11-18 02:26:09 | INFO     | Running validation for epoch 81
+2026-11-18 02:26:16 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:26:16 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:26:16 | INFO     | Validation - mAP50: 0.2834, mAP50-95: 0.1194
+2026-11-18 02:26:16 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:26:30 | INFO     | Epoch 82 - Average loss: 9.7167
+2026-11-18 02:26:30 | INFO     | Running validation for epoch 82
+2026-11-18 02:26:37 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:26:37 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:26:37 | INFO     | Validation - mAP50: 0.2737, mAP50-95: 0.1136
+2026-11-18 02:26:37 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:26:47 | INFO     | Epoch 83 - Average loss: 9.1862
+2026-11-18 02:26:47 | INFO     | Running validation for epoch 83
+2026-11-18 02:26:53 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:26:53 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:26:53 | INFO     | Validation - mAP50: 0.2609, mAP50-95: 0.1102
+2026-11-18 02:26:54 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:27:07 | INFO     | Epoch 84 - Average loss: 8.5612
+2026-11-18 02:27:07 | INFO     | Running validation for epoch 84
+2026-11-18 02:27:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:27:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:27:14 | INFO     | Validation - mAP50: 0.2750, mAP50-95: 0.1126
+2026-11-18 02:27:15 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:27:25 | INFO     | Epoch 85 - Average loss: 8.0417
+2026-11-18 02:27:25 | INFO     | Running validation for epoch 85
+2026-11-18 02:27:32 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:27:32 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:27:32 | INFO     | Validation - mAP50: 0.2835, mAP50-95: 0.1189
+2026-11-18 02:27:32 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:27:42 | INFO     | Epoch 86 - Average loss: 10.0954
+2026-11-18 02:27:42 | INFO     | Running validation for epoch 86
+2026-11-18 02:27:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:27:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:27:49 | INFO     | Validation - mAP50: 0.2725, mAP50-95: 0.1174
+2026-11-18 02:27:49 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:27:57 | INFO     | Epoch 87 - Average loss: 8.7072
+2026-11-18 02:27:57 | INFO     | Running validation for epoch 87
+2026-11-18 02:28:04 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:28:04 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:28:04 | INFO     | Validation - mAP50: 0.2811, mAP50-95: 0.1192
+2026-11-18 02:28:04 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:28:13 | INFO     | Epoch 88 - Average loss: 9.6843
+2026-11-18 02:28:13 | INFO     | Running validation for epoch 88
+2026-11-18 02:28:20 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:28:20 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:28:20 | INFO     | Validation - mAP50: 0.2728, mAP50-95: 0.1162
+2026-11-18 02:28:21 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:28:33 | INFO     | Epoch 89 - Average loss: 8.4919
+2026-11-18 02:28:33 | INFO     | Running validation for epoch 89
+2026-11-18 02:28:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:28:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:28:40 | INFO     | Validation - mAP50: 0.2715, mAP50-95: 0.1152
+2026-11-18 02:28:40 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:28:48 | INFO     | Epoch 90 - Average loss: 9.2237
+2026-11-18 02:28:48 | INFO     | Running validation for epoch 90
+2026-11-18 02:28:55 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:28:55 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:28:55 | INFO     | Validation - mAP50: 0.2746, mAP50-95: 0.1211
+2026-11-18 02:28:55 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:29:05 | INFO     | Epoch 91 - Average loss: 8.8273
+2026-11-18 02:29:05 | INFO     | Running validation for epoch 91
+2026-11-18 02:29:12 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:29:12 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:29:12 | INFO     | Validation - mAP50: 0.2653, mAP50-95: 0.1182
+2026-11-18 02:29:12 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:29:20 | INFO     | Epoch 92 - Average loss: 8.8923
+2026-11-18 02:29:20 | INFO     | Running validation for epoch 92
+2026-11-18 02:29:27 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:29:27 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:29:27 | INFO     | Validation - mAP50: 0.2654, mAP50-95: 0.1211
+2026-11-18 02:29:27 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:29:40 | INFO     | Epoch 93 - Average loss: 7.5817
+2026-11-18 02:29:40 | INFO     | Running validation for epoch 93
+2026-11-18 02:29:46 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:29:46 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:29:46 | INFO     | Validation - mAP50: 0.2753, mAP50-95: 0.1208
+2026-11-18 02:29:47 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:30:00 | INFO     | Epoch 94 - Average loss: 9.4921
+2026-11-18 02:30:00 | INFO     | Running validation for epoch 94
+2026-11-18 02:30:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:30:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:30:06 | INFO     | Validation - mAP50: 0.2662, mAP50-95: 0.1158
+2026-11-18 02:30:07 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:30:21 | INFO     | Epoch 95 - Average loss: 8.6484
+2026-11-18 02:30:21 | INFO     | Running validation for epoch 95
+2026-11-18 02:30:28 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:30:28 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:30:28 | INFO     | Validation - mAP50: 0.2547, mAP50-95: 0.1109
+2026-11-18 02:30:28 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:30:42 | INFO     | Epoch 96 - Average loss: 8.3986
+2026-11-18 02:30:42 | INFO     | Running validation for epoch 96
+2026-11-18 02:30:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:30:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:30:49 | INFO     | Validation - mAP50: 0.2434, mAP50-95: 0.1085
+2026-11-18 02:30:49 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:31:00 | INFO     | Epoch 97 - Average loss: 10.1687
+2026-11-18 02:31:00 | INFO     | Running validation for epoch 97
+2026-11-18 02:31:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:31:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:31:07 | INFO     | Validation - mAP50: 0.2499, mAP50-95: 0.1126
+2026-11-18 02:31:07 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:31:17 | INFO     | Epoch 98 - Average loss: 8.7075
+2026-11-18 02:31:17 | INFO     | Running validation for epoch 98
+2026-11-18 02:31:24 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:31:24 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:31:24 | INFO     | Validation - mAP50: 0.2570, mAP50-95: 0.1106
+2026-11-18 02:31:25 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:31:36 | INFO     | Epoch 99 - Average loss: 9.2479
+2026-11-18 02:31:36 | INFO     | Running validation for epoch 99
+2026-11-18 02:31:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:31:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:31:43 | INFO     | Validation - mAP50: 0.2692, mAP50-95: 0.1186
+2026-11-18 02:31:43 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:31:55 | INFO     | Epoch 100 - Average loss: 7.9800
+2026-11-18 02:31:55 | INFO     | Running validation for epoch 100
+2026-11-18 02:32:02 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:32:02 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:32:02 | INFO     | Validation - mAP50: 0.2508, mAP50-95: 0.1166
+2026-11-18 02:32:02 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:32:12 | INFO     | Epoch 101 - Average loss: 10.5169
+2026-11-18 02:32:12 | INFO     | Running validation for epoch 101
+2026-11-18 02:32:18 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:32:18 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:32:18 | INFO     | Validation - mAP50: 0.2432, mAP50-95: 0.1142
+2026-11-18 02:32:19 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:32:34 | INFO     | Epoch 102 - Average loss: 7.8034
+2026-11-18 02:32:34 | INFO     | Running validation for epoch 102
+2026-11-18 02:32:40 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:32:41 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:32:41 | INFO     | Validation - mAP50: 0.2458, mAP50-95: 0.1146
+2026-11-18 02:32:42 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:32:51 | INFO     | Epoch 103 - Average loss: 9.5967
+2026-11-18 02:32:51 | INFO     | Running validation for epoch 103
+2026-11-18 02:32:58 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:32:58 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:32:58 | INFO     | Validation - mAP50: 0.2417, mAP50-95: 0.1135
+2026-11-18 02:32:58 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:33:11 | INFO     | Epoch 104 - Average loss: 7.2371
+2026-11-18 02:33:11 | INFO     | Running validation for epoch 104
+2026-11-18 02:33:18 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:33:18 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:33:18 | INFO     | Validation - mAP50: 0.2472, mAP50-95: 0.1144
+2026-11-18 02:33:20 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:33:28 | INFO     | Epoch 105 - Average loss: 9.8002
+2026-11-18 02:33:28 | INFO     | Running validation for epoch 105
+2026-11-18 02:33:35 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:33:35 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:33:35 | INFO     | Validation - mAP50: 0.2434, mAP50-95: 0.1147
+2026-11-18 02:33:35 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:33:50 | INFO     | Epoch 106 - Average loss: 9.2006
+2026-11-18 02:33:50 | INFO     | Running validation for epoch 106
+2026-11-18 02:33:56 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:33:56 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:33:56 | INFO     | Validation - mAP50: 0.2436, mAP50-95: 0.1137
+2026-11-18 02:33:57 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:34:10 | INFO     | Epoch 107 - Average loss: 9.5192
+2026-11-18 02:34:10 | INFO     | Running validation for epoch 107
+2026-11-18 02:34:16 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:34:16 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:34:16 | INFO     | Validation - mAP50: 0.2461, mAP50-95: 0.1160
+2026-11-18 02:34:17 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:34:27 | INFO     | Epoch 108 - Average loss: 9.1537
+2026-11-18 02:34:27 | INFO     | Running validation for epoch 108
+2026-11-18 02:34:33 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:34:33 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:34:33 | INFO     | Validation - mAP50: 0.2602, mAP50-95: 0.1177
+2026-11-18 02:34:34 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:34:43 | INFO     | Epoch 109 - Average loss: 8.5726
+2026-11-18 02:34:43 | INFO     | Running validation for epoch 109
+2026-11-18 02:34:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:34:49 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:34:49 | INFO     | Validation - mAP50: 0.2607, mAP50-95: 0.1186
+2026-11-18 02:34:50 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:35:00 | INFO     | Epoch 110 - Average loss: 8.0422
+2026-11-18 02:35:00 | INFO     | Running validation for epoch 110
+2026-11-18 02:35:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:35:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:35:07 | INFO     | Validation - mAP50: 0.2581, mAP50-95: 0.1199
+2026-11-18 02:35:08 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:35:20 | INFO     | Epoch 111 - Average loss: 8.6533
+2026-11-18 02:35:20 | INFO     | Running validation for epoch 111
+2026-11-18 02:35:27 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:35:27 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:35:27 | INFO     | Validation - mAP50: 0.2565, mAP50-95: 0.1186
+2026-11-18 02:35:28 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:35:38 | INFO     | Epoch 112 - Average loss: 8.1745
+2026-11-18 02:35:38 | INFO     | Running validation for epoch 112
+2026-11-18 02:35:44 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:35:44 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:35:44 | INFO     | Validation - mAP50: 0.2600, mAP50-95: 0.1192
+2026-11-18 02:35:47 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:36:01 | INFO     | Epoch 113 - Average loss: 8.3120
+2026-11-18 02:36:01 | INFO     | Running validation for epoch 113
+2026-11-18 02:36:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:36:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:36:07 | INFO     | Validation - mAP50: 0.2557, mAP50-95: 0.1164
+2026-11-18 02:36:08 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:36:15 | INFO     | Epoch 114 - Average loss: 9.8508
+2026-11-18 02:36:15 | INFO     | Running validation for epoch 114
+2026-11-18 02:36:22 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:36:22 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:36:22 | INFO     | Validation - mAP50: 0.2572, mAP50-95: 0.1171
+2026-11-18 02:36:23 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:36:33 | INFO     | Epoch 115 - Average loss: 9.3505
+2026-11-18 02:36:33 | INFO     | Running validation for epoch 115
+2026-11-18 02:36:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:36:39 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:36:39 | INFO     | Validation - mAP50: 0.2712, mAP50-95: 0.1199
+2026-11-18 02:36:40 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:36:50 | INFO     | Epoch 116 - Average loss: 9.1992
+2026-11-18 02:36:50 | INFO     | Running validation for epoch 116
+2026-11-18 02:36:57 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:36:57 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:36:57 | INFO     | Validation - mAP50: 0.2677, mAP50-95: 0.1192
+2026-11-18 02:36:58 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:37:12 | INFO     | Epoch 117 - Average loss: 7.8798
+2026-11-18 02:37:12 | INFO     | Running validation for epoch 117
+2026-11-18 02:37:19 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:37:19 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:37:19 | INFO     | Validation - mAP50: 0.2745, mAP50-95: 0.1209
+2026-11-18 02:37:19 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:37:29 | INFO     | Epoch 118 - Average loss: 10.3353
+2026-11-18 02:37:29 | INFO     | Running validation for epoch 118
+2026-11-18 02:37:36 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:37:36 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:37:36 | INFO     | Validation - mAP50: 0.2740, mAP50-95: 0.1235
+2026-11-18 02:37:36 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:37:52 | INFO     | Epoch 119 - Average loss: 8.5779
+2026-11-18 02:37:52 | INFO     | Running validation for epoch 119
+2026-11-18 02:37:59 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:37:59 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:37:59 | INFO     | Validation - mAP50: 0.2748, mAP50-95: 0.1246
+2026-11-18 02:38:00 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:38:11 | INFO     | Epoch 120 - Average loss: 8.0557
+2026-11-18 02:38:11 | INFO     | Running validation for epoch 120
+2026-11-18 02:38:17 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:38:17 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:38:17 | INFO     | Validation - mAP50: 0.2678, mAP50-95: 0.1238
+2026-11-18 02:38:18 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:38:32 | INFO     | Epoch 121 - Average loss: 6.9806
+2026-11-18 02:38:32 | INFO     | Running validation for epoch 121
+2026-11-18 02:38:38 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:38:38 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:38:39 | INFO     | Validation - mAP50: 0.2700, mAP50-95: 0.1237
+2026-11-18 02:38:39 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:38:47 | INFO     | Epoch 122 - Average loss: 9.9140
+2026-11-18 02:38:47 | INFO     | Running validation for epoch 122
+2026-11-18 02:38:54 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:38:54 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:38:54 | INFO     | Validation - mAP50: 0.2747, mAP50-95: 0.1258
+2026-11-18 02:38:54 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:39:08 | INFO     | Epoch 123 - Average loss: 7.4877
+2026-11-18 02:39:08 | INFO     | Running validation for epoch 123
+2026-11-18 02:39:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:39:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:39:14 | INFO     | Validation - mAP50: 0.2744, mAP50-95: 0.1260
+2026-11-18 02:39:15 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:39:23 | INFO     | Epoch 124 - Average loss: 9.0068
+2026-11-18 02:39:23 | INFO     | Running validation for epoch 124
+2026-11-18 02:39:30 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:39:30 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:39:30 | INFO     | Validation - mAP50: 0.2718, mAP50-95: 0.1246
+2026-11-18 02:39:30 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:39:41 | INFO     | Epoch 125 - Average loss: 7.7045
+2026-11-18 02:39:41 | INFO     | Running validation for epoch 125
+2026-11-18 02:39:47 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:39:47 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:39:47 | INFO     | Validation - mAP50: 0.2700, mAP50-95: 0.1239
+2026-11-18 02:39:50 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:40:00 | INFO     | Epoch 126 - Average loss: 9.7151
+2026-11-18 02:40:00 | INFO     | Running validation for epoch 126
+2026-11-18 02:40:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:40:07 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:40:07 | INFO     | Validation - mAP50: 0.2676, mAP50-95: 0.1230
+2026-11-18 02:40:07 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:40:22 | INFO     | Epoch 127 - Average loss: 8.2535
+2026-11-18 02:40:22 | INFO     | Running validation for epoch 127
+2026-11-18 02:40:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:40:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:40:29 | INFO     | Validation - mAP50: 0.2671, mAP50-95: 0.1237
+2026-11-18 02:40:29 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:40:37 | INFO     | Epoch 128 - Average loss: 9.8359
+2026-11-18 02:40:37 | INFO     | Running validation for epoch 128
+2026-11-18 02:40:44 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:40:44 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:40:44 | INFO     | Validation - mAP50: 0.2624, mAP50-95: 0.1244
+2026-11-18 02:40:44 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:40:54 | INFO     | Epoch 129 - Average loss: 7.1704
+2026-11-18 02:40:54 | INFO     | Running validation for epoch 129
+2026-11-18 02:41:01 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:41:01 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:41:01 | INFO     | Validation - mAP50: 0.2617, mAP50-95: 0.1229
+2026-11-18 02:41:01 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:41:16 | INFO     | Epoch 130 - Average loss: 8.3822
+2026-11-18 02:41:16 | INFO     | Running validation for epoch 130
+2026-11-18 02:41:22 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:41:22 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:41:22 | INFO     | Validation - mAP50: 0.2634, mAP50-95: 0.1235
+2026-11-18 02:41:23 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:41:37 | INFO     | Epoch 131 - Average loss: 7.3232
+2026-11-18 02:41:37 | INFO     | Running validation for epoch 131
+2026-11-18 02:41:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:41:43 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:41:43 | INFO     | Validation - mAP50: 0.2688, mAP50-95: 0.1227
+2026-11-18 02:41:44 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:41:55 | INFO     | Epoch 132 - Average loss: 8.0461
+2026-11-18 02:41:55 | INFO     | Running validation for epoch 132
+2026-11-18 02:42:02 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:42:02 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:42:02 | INFO     | Validation - mAP50: 0.2644, mAP50-95: 0.1209
+2026-11-18 02:42:05 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:42:17 | INFO     | Epoch 133 - Average loss: 8.9259
+2026-11-18 02:42:17 | INFO     | Running validation for epoch 133
+2026-11-18 02:42:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:42:25 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:42:25 | INFO     | Validation - mAP50: 0.2636, mAP50-95: 0.1201
+2026-11-18 02:42:25 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:42:38 | INFO     | Epoch 134 - Average loss: 8.0564
+2026-11-18 02:42:38 | INFO     | Running validation for epoch 134
+2026-11-18 02:42:45 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:42:45 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:42:45 | INFO     | Validation - mAP50: 0.2649, mAP50-95: 0.1206
+2026-11-18 02:42:45 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:42:58 | INFO     | Epoch 135 - Average loss: 7.5515
+2026-11-18 02:42:58 | INFO     | Running validation for epoch 135
+2026-11-18 02:43:05 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:43:05 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:43:05 | INFO     | Validation - mAP50: 0.2593, mAP50-95: 0.1191
+2026-11-18 02:43:05 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:43:21 | INFO     | Epoch 136 - Average loss: 8.5224
+2026-11-18 02:43:21 | INFO     | Running validation for epoch 136
+2026-11-18 02:43:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:43:29 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:43:29 | INFO     | Validation - mAP50: 0.2637, mAP50-95: 0.1203
+2026-11-18 02:43:29 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:43:44 | INFO     | Epoch 137 - Average loss: 6.6955
+2026-11-18 02:43:44 | INFO     | Running validation for epoch 137
+2026-11-18 02:43:51 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:43:51 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:43:51 | INFO     | Validation - mAP50: 0.2633, mAP50-95: 0.1213
+2026-11-18 02:43:51 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:43:59 | INFO     | Epoch 138 - Average loss: 10.0173
+2026-11-18 02:43:59 | INFO     | Running validation for epoch 138
+2026-11-18 02:44:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:44:06 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:44:06 | INFO     | Validation - mAP50: 0.2678, mAP50-95: 0.1228
+2026-11-18 02:44:06 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:44:16 | INFO     | Epoch 139 - Average loss: 8.6752
+2026-11-18 02:44:16 | INFO     | Running validation for epoch 139
+2026-11-18 02:44:23 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:44:23 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:44:23 | INFO     | Validation - mAP50: 0.2691, mAP50-95: 0.1238
+2026-11-18 02:44:23 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:44:31 | INFO     | Epoch 140 - Average loss: 9.7042
+2026-11-18 02:44:31 | INFO     | Running validation for epoch 140
+2026-11-18 02:44:37 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:44:37 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:44:37 | INFO     | Validation - mAP50: 0.2663, mAP50-95: 0.1172
+2026-11-18 02:44:38 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:44:46 | INFO     | Epoch 141 - Average loss: 8.9529
+2026-11-18 02:44:46 | INFO     | Running validation for epoch 141
+2026-11-18 02:44:53 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:44:53 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:44:53 | INFO     | Validation - mAP50: 0.2670, mAP50-95: 0.1185
+2026-11-18 02:44:53 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:45:07 | INFO     | Epoch 142 - Average loss: 6.7840
+2026-11-18 02:45:07 | INFO     | Running validation for epoch 142
+2026-11-18 02:45:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:45:14 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:45:14 | INFO     | Validation - mAP50: 0.2661, mAP50-95: 0.1176
+2026-11-18 02:45:14 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:45:29 | INFO     | Epoch 143 - Average loss: 7.3993
+2026-11-18 02:45:29 | INFO     | Running validation for epoch 143
+2026-11-18 02:45:35 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:45:36 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:45:36 | INFO     | Validation - mAP50: 0.2704, mAP50-95: 0.1204
+2026-11-18 02:45:36 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:45:45 | INFO     | Epoch 144 - Average loss: 9.8103
+2026-11-18 02:45:45 | INFO     | Running validation for epoch 144
+2026-11-18 02:45:51 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:45:51 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:45:51 | INFO     | Validation - mAP50: 0.2646, mAP50-95: 0.1186
+2026-11-18 02:45:52 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:46:05 | INFO     | Epoch 145 - Average loss: 7.1961
+2026-11-18 02:46:05 | INFO     | Running validation for epoch 145
+2026-11-18 02:46:11 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:46:11 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:46:11 | INFO     | Validation - mAP50: 0.2771, mAP50-95: 0.1237
+2026-11-18 02:46:12 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:46:24 | INFO     | Epoch 146 - Average loss: 8.6732
+2026-11-18 02:46:24 | INFO     | Running validation for epoch 146
+2026-11-18 02:46:31 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:46:31 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:46:31 | INFO     | Validation - mAP50: 0.2766, mAP50-95: 0.1251
+2026-11-18 02:46:31 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:46:41 | INFO     | Epoch 147 - Average loss: 7.3656
+2026-11-18 02:46:41 | INFO     | Running validation for epoch 147
+2026-11-18 02:46:47 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:46:47 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:46:47 | INFO     | Validation - mAP50: 0.2751, mAP50-95: 0.1247
+2026-11-18 02:46:48 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:47:03 | INFO     | Epoch 148 - Average loss: 8.5843
+2026-11-18 02:47:03 | INFO     | Running validation for epoch 148
+2026-11-18 02:47:09 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:47:09 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:47:09 | INFO     | Validation - mAP50: 0.2747, mAP50-95: 0.1244
+2026-11-18 02:47:10 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:47:22 | INFO     | Epoch 149 - Average loss: 8.6108
+2026-11-18 02:47:22 | INFO     | Running validation for epoch 149
+2026-11-18 02:47:28 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:47:28 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:47:28 | INFO     | Validation - mAP50: 0.2653, mAP50-95: 0.1225
+2026-11-18 02:47:29 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:47:37 | INFO     | Epoch 150 - Average loss: 9.3918
+2026-11-18 02:47:37 | INFO     | Running validation for epoch 150
+2026-11-18 02:47:45 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:47:45 | INFO     | COCO eval backend: pycocotools ?
+2026-11-18 02:47:45 | INFO     | Validation - mAP50: 0.2612, mAP50-95: 0.1209
+2026-11-18 02:47:45 | INFO     | Checkpoint saved: runs/train/rfdetrn_seg/weights/last.pt
+2026-11-18 02:47:45 | INFO     | Training complete in 0.79 hours
