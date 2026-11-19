@@ -9,7 +9,10 @@ def remove_unlabelled_images(input_dir: str) -> None:
     base_path = Path(input_dir)
 
     json_dir = base_path / "annotations"
-    output_dir = Path(input_dir + "_cleaned")
+    if WANT_LABELLED:
+        output_dir = Path(input_dir + "_labelled_only")
+    else:
+        output_dir = Path(input_dir + "_unlabelled_only")
 
     json_files = list(json_dir.glob("*.json"))
     if not json_files:
@@ -38,13 +41,14 @@ def remove_unlabelled_images(input_dir: str) -> None:
     shutil.copytree(base_path, output_dir)
 
     for img_file in Path(output_dir / "images").rglob("*"):
-        if img_file.is_file() and img_file.name not in labelled_filenames:
-            img_file.unlink()
+        if img_file.is_file() and img_file.name not in labelled_filenames and (WANT_LABELLED and img_file.name not in labelled_filenames) or not WANT_LABELLED and img_file.name in labelled_filenames:
+                img_file.unlink()
 
     print(f"Cleaned dataset at: {output_dir}")
 
 
 if __name__ == "__main__":
     INPUT_DIR = "spraywall_dataset"
+    WANT_LABELLED = False
 
     remove_unlabelled_images(INPUT_DIR)

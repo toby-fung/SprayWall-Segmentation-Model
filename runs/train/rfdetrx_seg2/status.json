@@ -1,17 +1,24 @@
 {
-  "completed_epochs": 3,
-  "current_epoch": null,
-  "elapsed_seconds": 0.0,
+  "best_epoch": 5,
+  "best_metric": 0.40108040395122313,
+  "checkpoints": {
+    "best": "runs/train/rfdetrx_seg2/weights/best.pt",
+    "last": "runs/train/rfdetrx_seg2/weights/last.pt"
+  },
+  "completed_epochs": 7,
+  "elapsed_seconds": 14072.564,
   "model_family": "rfdetr",
   "model_size": "x",
   "pid": 43797,
-  "progress": 0.25,
+  "progress": 0.5833333333333334,
   "save_dir": "runs/train/rfdetrx_seg2",
   "schema_version": 1,
   "start_epoch": 4,
   "started_at": "2026-11-19T11:28:35+00:00",
-  "state": "running",
+  "state": "completed",
   "task": "segment",
   "total_epochs": 12,
-  "updated_at": "2026-11-19T11:28:35+00:00"
+  "total_seconds": 14072.565769195557,
+  "train_loss": 5.499202276290614,
+  "updated_at": "2026-11-19T15:23:07+00:00"
 }
