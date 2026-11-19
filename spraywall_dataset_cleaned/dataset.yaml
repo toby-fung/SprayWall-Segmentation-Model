@@ -1,6 +1,6 @@
-path: C:\Users\tobyf\OneDrive\Documents\GitHub\SprayWall-Segmentation-Model\spraywall_dataset_cleaned
-train: images/Train
-val: images/Val
+path: 
+train: images/train
+val: images/val
 names:
   0: Crimp
   1: Jug

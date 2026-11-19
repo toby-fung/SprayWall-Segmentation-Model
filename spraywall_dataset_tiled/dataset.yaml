@@ -1,0 +1,10 @@
+path: 
+train: train
+val: valid
+names:
+  0: Crimp
+  1: Jug
+  2: Pinch
+  3: Pocket
+  4: Sloper
+  5: Volume
